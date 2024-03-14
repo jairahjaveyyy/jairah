@@ -55,6 +55,12 @@ img{
     background-color: rgba(248, 184, 131, 0.938);
     padding: 20px;
     margin-right: 20px;
+    border-radius: 20px;
+}
+
+.p1:hover, .p2:hover, .p3:hover{
+    transform: translateY(5px);
+    background-color: rgba(245, 204, 170, 0.938);
 }
 
 .projecttitle{
@@ -64,10 +70,11 @@ img{
 
 button{
     padding: 10px;
-    background-color: rgba(248, 184, 131, 0.938);
+    background-color: rgba(250, 156, 80, 0.938);
     box-shadow: 10px 10px 5px gray;
     /* margin-right: 10px; */
     border-radius: 10px;
+
 }
 
 .card p{
@@ -77,7 +84,7 @@ button{
 }
 
 button:hover{
-    background-color: white;
+    background-color: antiquewhite;
     transition: all  0.15s;
     transform: translateY(5px);
     
