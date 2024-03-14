@@ -7,7 +7,7 @@
 body{
     margin: 0;
     padding: 100px;
-    background-image: linear-gradient(white, rgb(255, 209, 141));
+    background-image: linear-gradient(white, rgb(255, 209, 141), white);
 
 }
 
@@ -63,6 +63,7 @@ button{
     background-color: rgba(248, 184, 131, 0.938);
     box-shadow: 10px 10px 5px gray;
     margin-right: 40px;
+    border-radius: 10px;
 }
 
 .card p{
@@ -73,9 +74,16 @@ button{
 
 button:hover{
     background-color: white;
+    transition: all  0.15s;
+    
 }
 
 .image{
     margin-left: 50px;
     background-color: rgba(248, 184, 131, 0.938);
+    border-radius: 50px;
+}
+
+.pic{
+    border: 5px solid white;
 }
