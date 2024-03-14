@@ -75,6 +75,7 @@ button{
 button:hover{
     background-color: white;
     transition: all  0.15s;
+    transform: translateY(5px);
     
 }
 
@@ -87,3 +88,7 @@ button:hover{
 .pic{
     border: 5px solid white;
 }
+
+
+
+
